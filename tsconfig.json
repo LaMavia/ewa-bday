@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "module": "esnext",
+    "target": "es6",
+    "charset": "utf8",
+    "allowUnreachableCode": true
+  }
+}
