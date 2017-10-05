@@ -103,7 +103,7 @@ window.addEventListener('DOMContentLoaded', ()=>{int = setInterval(write,speed)}
 
 
 let credits:any = [
-  'Dominik','Nikola','Agata','Hubert'
+  'Dominik','Agata','Hubert'
 ]
 const waterMark = document.querySelector('div.waterMark')
 credits = credits.join(', ')
