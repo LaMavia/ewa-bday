@@ -1,5 +1,5 @@
 const speed = 150
-const lines = [
+/*const lines = [
   [
     'Happy','Birthday','Ewa!'
   ],
@@ -14,6 +14,23 @@ const lines = [
   ],
   [
     ';)' 
+  ]
+]*/
+const lines = [
+  [
+    'Wszystkiego',' Najlepszego','Ewa!'
+  ],
+  [
+    'Wiele Yerby'
+  ],
+  [
+    'Groma','Kotów'
+  ],
+  [
+    'I','Wielkich Koni'
+  ],
+  [
+    ';)'
   ]
 ]
 const dev = 'Hello'

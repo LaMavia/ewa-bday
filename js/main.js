@@ -1,16 +1,33 @@
 const speed = 150;
+/*const lines = [
+  [
+    'Happy','Birthday','Ewa!'
+  ],
+  [
+    'Loads','of','yerba'
+  ],
+  [
+    'cats'
+  ],
+  [
+    'and','horses'
+  ],
+  [
+    ';)'
+  ]
+]*/
 const lines = [
     [
-        'Happy', 'Birthday', 'Ewa!'
+        'Wszystkiego', ' Najlepszego', 'Ewa!'
     ],
     [
-        'Loads', 'of', 'yerba'
+        'Wiele Yerby'
     ],
     [
-        'cats'
+        'Groma', 'Kotów'
     ],
     [
-        'and', 'horses'
+        'I', 'Wielkich Koni'
     ],
     [
         ';)'
