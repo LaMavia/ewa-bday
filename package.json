@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "webpack-dev-server --env development",
-    "build": "webpack --env production"
+    "build": "webpack --env production",
+    "typescript": "tsc -w js/main.ts"
   },
   "dependencies": {
     "babel-core": "^6.26.0",

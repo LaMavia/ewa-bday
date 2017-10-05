@@ -28,26 +28,28 @@ x: sub-array
 y: word
 z: letter
 */
-const size = lines.reduce((prev,currv,i) => {
+const size:number = lines.reduce((prev,currv,i):number => {
   return prev += currv.length
 },0)
 let bgColor = '#00ffff'
 const out = document.querySelector('.text')
 const back = document.querySelector('.back')
-let backStyle = [
+const body = document.body
+let Style = [
   `--back-text-height:${size}`,
-  `--bg-color:${bgColor}`
+  `--bg-color:${bgColor}`,
+  `--speed: ${speed}`
 ]
 function upStyle():void{
-  backStyle = [
+  Style = [
     `--back-text-height:${size}`,
     `--bg-color:${bgColor}`
   ]
-  back.setAttribute('style', backStyle.join('; '))
+  body.setAttribute('style', Style.join('; '))
 }
 function radnColor():string{
   const randC = function(){
-    return Math.floor(Math.random() * 150) + 100
+    return Math.floor(Math.random() * 150) + 50
   }
   const [r,g,b] = [randC(),randC(),randC()]
   return `rgb(${r},${g},${b})`
@@ -81,3 +83,11 @@ function write():void{
 }
 
 window.addEventListener('DOMContentLoaded', ()=>{int = setInterval(write,speed)})
+
+
+let credits:any = [
+  'Dominik','Nikola','Agata','Hubert'
+]
+const waterMark = document.querySelector('div.waterMark')
+credits = credits.join(', ')
+waterMark.innerHTML = credits
